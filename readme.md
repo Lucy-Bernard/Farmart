@@ -1,10 +1,22 @@
-#Project
+# FarMart Database System
 
-## CSCE 156
+A Java-based invoice management system for FarMart stores that handles customer information, product inventory, and sales transactions.
 
-Lucy Bernard <br />
-lbernard <br />
-33703165 <br />
-lbernard3@huskers.unl.edu
+## Features
 
-Go here for github repo https://github.com/Lucy1228/FarMarT-Database-System/blob/master/readme.md
+- CSV and database-based data loading
+- Invoice generation and reporting
+- Support for multiple item types (Products, Equipment, Services, Leases, Purchases)
+- Custom linked list implementation for data management
+- Comprehensive store and sales analytics
+
+## Structure
+
+- `src/framework/fmt/` - Core business logic and data models
+- `src/com/fmt/` - Application entry points and utilities
+- `src/list/fmt/` - Custom data structures and sorting implementations
+- `data/` - CSV data files and output
+
+## Author
+
+Lucy Bernard
