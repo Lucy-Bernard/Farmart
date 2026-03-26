@@ -3,8 +3,8 @@
     {
       "personId": 0,
       "personCode": "ab4389",
-      "lastName": "Welp",
-      "firstName": "Themartian",
+      "firstName": "Welp",
+      "lastName": "Themartian",
       "address": {
         "street": "1589 S. waverlly",
         "city": "Narnia",
@@ -13,15 +13,15 @@
         "zip": "87612",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "valorantismid@gmailcom"
       ]
     },
     {
       "personId": 0,
       "personCode": "3brcn2",
-      "lastName": "Farquad",
-      "firstName": "Lord",
+      "firstName": "Farquad",
+      "lastName": "Lord",
       "address": {
         "street": "1472 cookieman road",
         "city": "LittleTown",
@@ -30,15 +30,15 @@
         "zip": "94202",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "shreakteam@yahoo.com"
       ]
     },
     {
       "personId": 0,
       "personCode": "mno345",
-      "lastName": "Martinez",
-      "firstName": "Carla",
+      "firstName": "Martinez",
+      "lastName": "Carla",
       "address": {
         "street": "815 1st St",
         "city": "Naperville",
@@ -47,7 +47,7 @@
         "zip": "60563",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "cmartinez4@yahoo.com",
         "cmartinez4@aol.com"
       ]
@@ -55,8 +55,8 @@
     {
       "personId": 0,
       "personCode": "8fbr21",
-      "lastName": "Galapagos",
-      "firstName": "Joey",
+      "firstName": "Galapagos",
+      "lastName": "Joey",
       "address": {
         "street": "2900 E. St",
         "city": "Lincoln",
@@ -65,15 +65,15 @@
         "zip": "68510",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "joeytakesthebus@gmail.com"
       ]
     },
     {
       "personId": 0,
       "personCode": "abc123",
-      "lastName": "Johnson",
-      "firstName": "Marvin",
+      "firstName": "Johnson",
+      "lastName": "Marvin",
       "address": {
         "street": "425 Lincoln St",
         "city": "Denver",
@@ -82,7 +82,7 @@
         "zip": "80203",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "mjohnson0@yahoo.com",
         "mjohnson0@hotmail.com"
       ]
@@ -90,8 +90,8 @@
     {
       "personId": 0,
       "personCode": "f95b46",
-      "lastName": "Rodriguez",
-      "firstName": "Pedro",
+      "firstName": "Rodriguez",
+      "lastName": "Pedro",
       "address": {
         "street": "4500 S. 3rd St",
         "city": "McAllen",
@@ -100,7 +100,7 @@
         "zip": "78503",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "prodriguez9@hotmail.com",
         "prodriguez9@yahoo.com"
       ]
@@ -108,8 +108,8 @@
     {
       "personId": 0,
       "personCode": "pqr678",
-      "lastName": "Watson",
-      "firstName": "David",
+      "firstName": "Watson",
+      "lastName": "David",
       "address": {
         "street": "400 Church St",
         "city": "Columbia",
@@ -118,7 +118,7 @@
         "zip": "29201",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "dwatson5@live.com",
         "dwatson5@gmail.com"
       ]
@@ -126,8 +126,8 @@
     {
       "personId": 0,
       "personCode": "stu901",
-      "lastName": "Kim",
-      "firstName": "Grace",
+      "firstName": "Kim",
+      "lastName": "Grace",
       "address": {
         "street": "7102 W. Mill Rd.",
         "city": "Milwaukee",
@@ -136,7 +136,7 @@
         "zip": "53218",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "gkim6@gmail.com",
         "gkim6@yahoo.com"
       ]
@@ -144,8 +144,8 @@
     {
       "personId": 0,
       "personCode": "jkl012",
-      "lastName": "Smith",
-      "firstName": "Robert",
+      "firstName": "Smith",
+      "lastName": "Robert",
       "address": {
         "street": "105 E. Elm St",
         "city": "Burbank",
@@ -154,7 +154,7 @@
         "zip": "91502",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "rsmith3@hotmail.com",
         "rsmith3@yahoo.com",
         "rsmith3@gmail.com",
@@ -164,8 +164,8 @@
     {
       "personId": 0,
       "personCode": "def456",
-      "lastName": "Garcia",
-      "firstName": "Alex",
+      "firstName": "Garcia",
+      "lastName": "Alex",
       "address": {
         "street": "2195 N. Comanche Drive",
         "city": "Tucson",
@@ -174,7 +174,7 @@
         "zip": "85705",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "agarcia1@gmail.com",
         "agarcia1@hotmail.com",
         "agarcia1@yahoo.com"
@@ -183,8 +183,8 @@
     {
       "personId": 0,
       "personCode": "dcd789",
-      "lastName": "Valentin",
-      "firstName": "Migdalia",
+      "firstName": "Valentin",
+      "lastName": "Migdalia",
       "address": {
         "street": "123 Oak St",
         "city": "Baltimore",
@@ -193,7 +193,7 @@
         "zip": "21201",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "mbaker7@aol.com",
         "mbaker7@yahoo.com",
         "mbaker7@gmail.com",
@@ -203,8 +203,8 @@
     {
       "personId": 0,
       "personCode": "9c3b21",
-      "lastName": "Nguyen",
-      "firstName": "Anna",
+      "firstName": "Nguyen",
+      "lastName": "Anna",
       "address": {
         "street": "21 Maple St",
         "city": "San Francisco",
@@ -213,7 +213,7 @@
         "zip": "94102",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "anguyen8@yahoo.com",
         "anguyen8@gmail.com"
       ]
@@ -221,8 +221,8 @@
     {
       "personId": 0,
       "personCode": "ghi789",
-      "lastName": "Park",
-      "firstName": "Emily",
+      "firstName": "Park",
+      "lastName": "Emily",
       "address": {
         "street": "54 Cedar Avenue",
         "city": "Portsmouth",
@@ -231,7 +231,7 @@
         "zip": "03801",
         "addressId": 0
       },
-      "email": [
+      "emails": [
         "epark2@comcast.net",
         "epark2@gmail.com"
       ]

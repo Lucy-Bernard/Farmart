@@ -1,4 +1,4 @@
-package framework.fmt;
+package entities.fmt;
 
 /**
  * The Purchase class is a subclass of Equipment and represents a flat equipment

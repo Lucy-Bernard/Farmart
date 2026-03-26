@@ -1,4 +1,4 @@
-package framework.fmt;
+package entities.fmt;
 
 /**
  * The Service class represents various Services at FMT stores. It is a subclass
@@ -46,12 +46,12 @@ public class Service extends Item {
 		return " (Service) " + getItemName() + "\n                 " + hours + " hours @ " + "$" + hourlyRate + "/hr";
 	}
 
-	double getHourlyRate() {
-		return hourlyRate;
-	}
-
 	public double getHours() {
 		return hours;
+	}
+
+	public double getHourlyRate() {
+		return hourlyRate;
 	}
 
 	/**

@@ -1,9 +1,11 @@
-package com.fmt;
+package app.fmt;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import com.google.gson.Gson;
@@ -12,12 +14,10 @@ import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 
-import framework.fmt.Item;
-import framework.fmt.Person;
-import framework.fmt.Store;
-
-
-
+import entities.fmt.CSVParser;
+import entities.fmt.Item;
+import entities.fmt.Person;
+import entities.fmt.Store;
 
 /**
  * This class reads in raw data files, converts them to JSON format and then
@@ -99,10 +99,18 @@ public class DataConverter {
 	 */
 
 	public static Map<String, Store> serializeStoreFile(Map<String, Store> storeMap) {
-		Map<String, Object> jsonMap = new HashMap<String, Object>();
-		jsonMap.put("stores", storeMap.values());
+		// reference
+		List<Map<String, Object>> storeList = new ArrayList<>();
+		for (Store store : storeMap.values()) {
+			Map<String, Object> storeData = new HashMap<>();
+			storeData.put("storeCode", store.getStoreCode());
+			storeData.put("manager", store.getManager());
+			storeData.put("address", store.getStoreAddress());
+			storeList.add(storeData);
+		}
+		Map<String, Object> jsonMap = new HashMap<>();
+		jsonMap.put("stores", storeList);
 		String json = GSON.toJson(jsonMap);
-
 		try (PrintWriter writer = new PrintWriter("data/Stores.json")) {
 			writer.print(json);
 		} catch (IOException e) {
@@ -111,4 +119,10 @@ public class DataConverter {
 		return storeMap;
 	}
 
+	public static void main(String[] args) {
+		DataConverter.serializePersonFile(CSVParser.personMap);
+		DataConverter.serializeItemFile(CSVParser.itemMap);
+		DataConverter.serializeStoreFile(CSVParser.storeMap);
+		System.out.println("Data converted to JSON successfully!");
+	}
 }

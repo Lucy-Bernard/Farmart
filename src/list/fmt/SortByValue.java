@@ -2,7 +2,7 @@ package list.fmt;
 
 import java.util.Comparator;
 
-import framework.fmt.Invoice;
+import entities.fmt.Invoice;
 
 /**
  * This class sorts Invoices by their total

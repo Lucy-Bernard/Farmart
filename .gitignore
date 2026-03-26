@@ -18,3 +18,7 @@
 # Metals (Scala)
 .metals/
 .bloop/
+
+
+# db pw
+password-for-db.txt

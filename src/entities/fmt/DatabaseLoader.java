@@ -1,4 +1,4 @@
-package framework.fmt;
+package entities.fmt;
 
 import java.sql.Connection;
 

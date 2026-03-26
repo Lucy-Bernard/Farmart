@@ -1,4 +1,5 @@
-package framework.fmt;
+package entities.fmt;
+
 import java.io.File;
 import java.time.LocalDate;
 import java.util.HashMap;
@@ -6,6 +7,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
+
 /**
  * This class parses data files and creates corresponding objects. Static
  * methods are used to load data from CSV files and store them in maps

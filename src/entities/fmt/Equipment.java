@@ -1,4 +1,4 @@
-package framework.fmt;
+package entities.fmt;
 
 /**
  * The Equipment class is a subclass of Item and represents various equipments

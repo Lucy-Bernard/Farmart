@@ -1,4 +1,4 @@
-package framework.fmt;
+package entities.fmt;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,8 +16,8 @@ public class DatabaseConnection {
 
 	public static final String parameters = "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 	public static final String username = "lbernard";
-	public static final String password = "WlRtZAkIRA8";
-	public static final String url = "jdbc:mysql://cse.unl.edu/" + username + parameters;
+	public static final String password = "Giblesaurr1228!";
+	public static final String url = "jdbc:mysql://localhost/" + username + parameters;
 
 	public static Connection getConnection() throws SQLException {
 		return DriverManager.getConnection(url, username, password);

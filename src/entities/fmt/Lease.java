@@ -1,10 +1,11 @@
-package framework.fmt;
+package entities.fmt;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
 /**
- * Lease class represents various leases in FMT stores, including start date, end
+ * Lease class represents various leases in FMT stores, including start date,
+ * end
  * date and when the lease was signed
  */
 public class Lease extends Equipment {

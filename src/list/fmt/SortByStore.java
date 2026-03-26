@@ -2,7 +2,7 @@ package list.fmt;
 
 import java.util.Comparator;
 
-import framework.fmt.Invoice;
+import entities.fmt.Invoice;
 
 /**
  * This class sorts stores by their code and then by the last/first name of

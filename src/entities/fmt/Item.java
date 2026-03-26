@@ -1,4 +1,4 @@
-package framework.fmt;
+package entities.fmt;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -36,8 +36,8 @@ public abstract class Item {
 	public abstract double getTaxes();
 
 	public abstract double getSubtotal();
-	
-//	public abstract boolean isValid();
+
+	// public abstract boolean isValid();
 
 	public int getItemId() {
 		return itemId;
@@ -58,6 +58,7 @@ public abstract class Item {
 
 	/**
 	 * checks if item code exists in the database
+	 * 
 	 * @param itemCode
 	 * @return 0 if the item doesn't exist, or the itemId of the existing item
 	 */

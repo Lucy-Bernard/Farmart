@@ -1,4 +1,5 @@
-package framework.fmt;
+package entities.fmt;
+
 import java.util.Map;
 import list.fmt.SortByName;
 import list.fmt.SortByValue;

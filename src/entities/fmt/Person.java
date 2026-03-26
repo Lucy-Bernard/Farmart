@@ -1,4 +1,4 @@
-package framework.fmt;
+package entities.fmt;
 
 import java.util.ArrayList;
 import java.util.List;

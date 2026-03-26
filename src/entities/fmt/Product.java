@@ -1,4 +1,4 @@
-package framework.fmt;
+package entities.fmt;
 
 /**
  * This Product class is a subclass of Item and represents various products sold
@@ -79,7 +79,7 @@ public class Product extends Item {
 	}
 
 	/**
-	 * checks if there is an item name and unit to enter 
+	 * checks if there is an item name and unit to enter
 	 * checks that unit price is not negative or 0 per FMT guidelines
 	 * 
 	 * @param itemName
