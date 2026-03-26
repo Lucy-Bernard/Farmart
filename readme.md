@@ -2,7 +2,7 @@
 
 ## Demo
 
-A video demonstration of this project is available here: [Project Demo on Google Drive](https://drive.google.com/file/d/193UnmATN6-nNEjWfhTf5qI1lfBoEiC8l/view?usp=sharing)
+A video demonstration of this project is available here: [Project Demo on Loom](https://www.loom.com/share/43618f1a56a8462f8c4534914c0cc3a3)
 
 FarMarT is a Java sales subsystem for a regional farm equipment and supplies business. It tracks people, stores, items, and invoices, then produces formatted sales reports for business analysis.
 
